@@ -4,8 +4,8 @@
 3. Verifikovati da se Total cena poklapa sa cena * kolicina za sve proizvode u korpi
 4. Zavrsiti kupovinu proizvoda, platiti proizvode i verifikovati uspesnost kupovine
 
-#Login
-1. Uraditi negativne testove za login. Jedan test treba da procita sve kredencijale preko dataProvidera
+#Login!!!!!!!!!!!!!!!
+1. Uraditi negativne testove za login. Jedan test treba da procita sve kredencijale preko dataProvidera!!!!!!!!!!!!
 
 #Kategorije
 1. Iz header-menu izabrati kategoriju Power Tools

@@ -23,7 +23,20 @@ public class NegativLogInTest extends BaseTest {
     public void registerAndLogInTest(String username, String password) {
 
         negativLogInPage.goToRegisterpage().logInUser(username, password);
-        Assert.assertTrue(negativLogInPage.isErrorPresent());
+        if (username.equals(""))
+            Assert.assertTrue(negativLogInPage.isErrorPresent(1));
+        else
+        if (password.equals("") && !username.isEmpty())
+            Assert.assertTrue(negativLogInPage.isErrorPresent(0));
+        else
+        if(!username.matches("^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$"))
+            //if(username.equals("admin"))
+            Assert.assertTrue(negativLogInPage.isErrorPresent(2));
+        else
+            Assert.assertTrue(negativLogInPage.isErrorPresent(3));
+
+
+
 
     }
 
