@@ -88,4 +88,5 @@ public class RegisterAndLogInPage extends BasePage {
     public String getPassword() {
         return password;
     }
+
 }

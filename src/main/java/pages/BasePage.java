@@ -17,8 +17,9 @@ public class BasePage {
 
     protected WebDriver driver;
     protected WebDriverWait wait;
+    Actions actions;
 
-    private static final Logger log = LogManager.getLogger(BasePage.class.getName());
+    protected static final Logger log = LogManager.getLogger(BasePage.class.getName());
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
@@ -42,6 +43,7 @@ public class BasePage {
     protected String getTextFromElement(By locator) {
         return getElement(locator).getText();
     }
+
 
     protected String getColorFromElement(By locator, String cssValue) {
         return getElement(locator).getCssValue(cssValue);

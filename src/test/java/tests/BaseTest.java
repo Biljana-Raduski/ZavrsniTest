@@ -18,10 +18,10 @@ public class BaseTest {
         driver.get("https://practicesoftwaretesting.com/#/");
     }
 
-//    @AfterMethod(alwaysRun = true)
-//    public void tearDown() {
-//        driver.quit();
-//    }
+    @AfterMethod(alwaysRun = true)
+    public void tearDown() {
+        driver.quit();
+    }
 
 
 }

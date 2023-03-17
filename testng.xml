@@ -6,7 +6,10 @@
     </listeners>
     <test name="Test">
         <classes>
-            <class name="tests.RegisterAndLoginTest"></class>
+            <class name="tests.NegativLogInTest"></class>
+            <!--<class name="tests.RegisterAndLoginTest"></class>-->
+            <class name="tests.BasketTest"></class>
+            <class name="tests.FilterTest"></class>
 
         </classes>
     </test>
