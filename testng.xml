@@ -10,7 +10,7 @@
             <!--<class name="tests.RegisterAndLoginTest"></class>-->
             <class name="tests.BasketTest"></class>
             <class name="tests.FilterTest"></class>
-
+            <class name="tests.WishListTest"></class>
         </classes>
     </test>
 

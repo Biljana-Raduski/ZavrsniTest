@@ -136,8 +136,10 @@ public class BasketPage extends BasePage {
         Utils.waitForSeconds(2);
         clickOnElement(homeSrcreen);
         Utils.waitForSeconds(2);
+
         clickOnElement(hammers);
         Utils.waitForSeconds(2);
+
         clickOnRandomElement(randomHammer);
         clickOnElement(addToCartButton);
         clickOnElement(categoriesDropdown);
